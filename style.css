@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root{
+    --Neumorphism: #dde1e7;
+    --SpaceCadet: #111D4A;
+    --MiddleBluePurple: #8380B6;
+}
+
+html, body{
+    background-color: var(--Neumorphism);
+    height: 100vh;
+    min-height: 500px;
+}
+
+#game_button_up_down{
+    width: 100%;
+    height: 7.5%;
+    background-color: #111D4A;
+
+    display: flex;
+    align-items: center;
+}
+#button_up{
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+
+    border-radius: 50%;
+    background-color: #4a1111;
+}
+#button_down{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+
+    border-radius: 50%;
+    background-color: #494a11;
+}
+
+#main_screen{
+    margin-left: 5%;
+    width: 90%;
+    height: 85%;
+    background-color: #47114a;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#game_screen{
+    width: 90%;
+    height: 95%;
+    background-color: aqua;
+}
+
+#game_button_shoot{
+    width: 100%;
+    height: 7.5%;
+    background-color: #111D4A;
+
+    display: flex;
+    align-items: center;
+}
+#button_shoot{
+    width: 50px;
+    height: 50px;
+    margin-left: 80px;
+
+    border-radius: 50%;
+    background-color: #134a11;
+}
